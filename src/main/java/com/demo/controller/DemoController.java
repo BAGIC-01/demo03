@@ -10,7 +10,7 @@ public class DemoController {
 	
 	@GetMapping("/cities")
 	public String getCities () {
-		return "mumbai,pune,banglore,Delhi,Hyderabad";
+		return "mumbai,pune,banglore,Delhi,Hyderabad,Nagpur";
 	}
 
 	@GetMapping("/contries")
