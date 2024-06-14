@@ -15,7 +15,7 @@ public class DemoController {
 
 	@GetMapping("/contries")
 	public String getContries () {
-		return "India,Japan,China,America,Peru,Canada,Pakistan,afganistan,taiwan,Russia";
+		return "India,Japan,China,America,Peru,Canada,Pakistan,afganistan,taiwan,Russia,antartica";
 	}
 
 	
