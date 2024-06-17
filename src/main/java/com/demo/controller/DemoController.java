@@ -10,12 +10,12 @@ public class DemoController {
 	
 	@GetMapping("/cities")
 	public String getCities () {
-		return "mumbai";
+		return "mumbai,pune,banglore,";
 	}
 
 	@GetMapping("/contries")
 	public String getContries () {
-		return "India";
+		return "India,Japan,China";
 
 	}
 
